@@ -10,11 +10,11 @@ fun add(a: Int, b: Int): Int {
 
 //2.
 fun sum(a: Int): Int {
-    var x: Int = 0
-    for (i in 1..a) {
-        x += i
+    var tot: Int=0
+    for (i in 0..a) {
+        tot += i
     }
-    return x
+    return tot
 }
 
 //3.
